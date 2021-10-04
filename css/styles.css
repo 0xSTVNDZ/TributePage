@@ -6,6 +6,8 @@ body {
     font-size: 16px;
     width: 100%;
     font-weight: 400;
+    background-color: black;
+    color: #46EE0D;
 }
 
 /*
@@ -52,8 +54,8 @@ img {
     max-height: 700px;
     margin: 2.5px;
     width: 100%;
+    height: auto;
 }
-
 
 /*
     make img caption a flex container so we can center text
@@ -65,4 +67,75 @@ img {
     display: flex;
     justify-content: center;
     margin: 2em 0em;
+}
+
+/*
+    set info div to be a flex container
+    set items to wrap
+    center content
+    add bottom margin
+*/
+.tribute-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6em;
+}
+
+/*
+    set title of info section to flex container
+    center element, set top-bottom margin
+    set font-size and width
+*/
+.tribute-info h3 {
+    display: flex;
+    justify-content: center;
+    margin: 2.5em 0em;
+    font-size: 2em;
+    width: 100%;
+}
+
+/*
+    set list portion to be a flex container
+    set max width, flex wrap to wrap, center contents
+*/
+.tribute-list {
+    max-width: 900px;
+    width: 100%;
+}
+
+/*
+    set width to 100% to make items wrap properly
+    set margin
+*/
+ul li {
+    margin: 2em 0em;
+    display: flex;
+    width: 90%;
+}
+
+/*
+    same properties as quote one
+*/
+.quote-two {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+/*
+    set link color to red
+*/
+a {
+    color: #E0273E;
+}
+
+/*
+    on hover, set link color to purple
+*/
+a:hover {
+    color: #800FE2;
 }
