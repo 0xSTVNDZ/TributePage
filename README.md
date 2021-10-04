@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Tribute Page
 
-<!--[Demo](https://example.com)-->
+[Demo](https://0xstvndz.github.io/TributePage/)
 
 ### Built With
 
@@ -17,7 +17,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-git clone repositiory and open index.html
+git clone https://github.com/0xSTVNDZ/TributePage.git & then open index.html
 
 
 <!-- USAGE EXAMPLES -->
