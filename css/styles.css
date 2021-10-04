@@ -110,7 +110,6 @@ img {
 */
 ul li {
     margin: 2em 0em;
-    display: flex;
     width: 90%;
 }
 

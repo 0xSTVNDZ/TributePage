@@ -35,7 +35,7 @@ Project is: _complete_
 
 
 ## Room for Improvement
-- Figure out how to make the bullet points show up 
+- Add more information in the future
 
 
 <!-- CONTRIBUTING -->
