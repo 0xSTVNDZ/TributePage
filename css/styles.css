@@ -1,0 +1,68 @@
+/*
+    setting universal font properties and width of all contents
+*/
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;
+}
+
+/*
+    make title into flex container
+    center contents and make width 100% of window size
+    adjust top-bottom margin and font size
+*/
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em;
+    font-size: 2.5em;
+}
+
+/*
+    make quote a flex container and center text
+    set top-bottom margins, set font family and font size
+*/
+.quote-one {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+}
+
+/*
+    img container will also be a flex container
+    center content
+    have items wrap 
+*/
+.img-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*
+    max dimensions of img are 700x700 so we set those
+    set width to 100% so flex items can wrap as intended
+*/
+img {
+    max-width: 700px;
+    max-height: 700px;
+    margin: 2.5px;
+    width: 100%;
+}
+
+
+/*
+    make img caption a flex container so we can center text
+    make width 100% so item will wrap 
+    set top-bottom margins
+*/
+.img-caption {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em;
+}
