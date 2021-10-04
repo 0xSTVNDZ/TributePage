@@ -31,14 +31,12 @@ A tribute page for freeCodeCamp's Responsive Web Design Certification. Project 1
 
 
 ## Project Status
-Project is: _inprogress_ 
+Project is: _complete_
 
 
 ## Room for Improvement
-- add more info
+- Figure out how to make the bullet points show up 
 
-To do:
-- begin
 
 <!-- CONTRIBUTING -->
 ## Contributing
